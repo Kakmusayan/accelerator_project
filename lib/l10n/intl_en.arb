@@ -1,17 +1,27 @@
 {
-    "counterValue": "Counter value",
+	"@personsTotal": {
+		"placeholders": {
+			"total": {}
+		}
+	},
+	"alive": "Alive",
 	"auth": "Authorization",
-	"inputLoginAndPassword": "Input login and password",
-	"login": "Login",
-	"password": "Password",
-	"inputErrorCheckLogin": "Check login",
-	"inputErrorLoginIsShort": "Login must contain more than 3 symbols",
-	"inputErrorCheckPassword": "Check password",
-	"inputErrorPasswordIsShort": "Password must contain more than 8 symbols",
-	"tryAgain": "Try again",
 	"close": "Close",
-	"signIn": "Sign in",
-	"language": "Language",
+	"counterValue": "Counter value",
+	"dead": "Dead",
 	"english": "English",
-	"russian": "Russian"
+	"findPerson": "Find a person",
+	"inputErrorCheckLogin": "Check login",
+	"inputErrorCheckPassword": "Check password",
+	"inputErrorLoginIsShort": "Login must contain more than 3 symbols",
+	"inputErrorPasswordIsShort": "Password must contain more than 8 symbols",
+	"inputLoginAndPassword": "Input login and password",
+	"language": "Language",
+	"login": "Login",
+	"noData": "No data",
+	"password": "Password",
+	"personsTotal": "Total persons: {total}",
+	"russian": "Russian",
+	"signIn": "Sign in",
+	"tryAgain": "Try again"
 }

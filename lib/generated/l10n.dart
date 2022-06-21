@@ -50,11 +50,11 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Counter value`
-  String get counterValue {
+  /// `Alive`
+  String get alive {
     return Intl.message(
-      'Counter value',
-      name: 'counterValue',
+      'Alive',
+      name: 'alive',
       desc: '',
       args: [],
     );
@@ -70,86 +70,6 @@ class S {
     );
   }
 
-  /// `Input login and password`
-  String get inputLoginAndPassword {
-    return Intl.message(
-      'Input login and password',
-      name: 'inputLoginAndPassword',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Login`
-  String get login {
-    return Intl.message(
-      'Login',
-      name: 'login',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Password`
-  String get password {
-    return Intl.message(
-      'Password',
-      name: 'password',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Check login`
-  String get inputErrorCheckLogin {
-    return Intl.message(
-      'Check login',
-      name: 'inputErrorCheckLogin',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Login must contain more than 3 symbols`
-  String get inputErrorLoginIsShort {
-    return Intl.message(
-      'Login must contain more than 3 symbols',
-      name: 'inputErrorLoginIsShort',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Check password`
-  String get inputErrorCheckPassword {
-    return Intl.message(
-      'Check password',
-      name: 'inputErrorCheckPassword',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Password must contain more than 8 symbols`
-  String get inputErrorPasswordIsShort {
-    return Intl.message(
-      'Password must contain more than 8 symbols',
-      name: 'inputErrorPasswordIsShort',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Try again`
-  String get tryAgain {
-    return Intl.message(
-      'Try again',
-      name: 'tryAgain',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Close`
   String get close {
     return Intl.message(
@@ -160,21 +80,21 @@ class S {
     );
   }
 
-  /// `Sign in`
-  String get signIn {
+  /// `Counter value`
+  String get counterValue {
     return Intl.message(
-      'Sign in',
-      name: 'signIn',
+      'Counter value',
+      name: 'counterValue',
       desc: '',
       args: [],
     );
   }
 
-  /// `Language`
-  String get language {
+  /// `Dead`
+  String get dead {
     return Intl.message(
-      'Language',
-      name: 'language',
+      'Dead',
+      name: 'dead',
       desc: '',
       args: [],
     );
@@ -190,11 +110,141 @@ class S {
     );
   }
 
+  /// `Find a person`
+  String get findPerson {
+    return Intl.message(
+      'Find a person',
+      name: 'findPerson',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Check login`
+  String get inputErrorCheckLogin {
+    return Intl.message(
+      'Check login',
+      name: 'inputErrorCheckLogin',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Check password`
+  String get inputErrorCheckPassword {
+    return Intl.message(
+      'Check password',
+      name: 'inputErrorCheckPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login must contain more than 3 symbols`
+  String get inputErrorLoginIsShort {
+    return Intl.message(
+      'Login must contain more than 3 symbols',
+      name: 'inputErrorLoginIsShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password must contain more than 8 symbols`
+  String get inputErrorPasswordIsShort {
+    return Intl.message(
+      'Password must contain more than 8 symbols',
+      name: 'inputErrorPasswordIsShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Input login and password`
+  String get inputLoginAndPassword {
+    return Intl.message(
+      'Input login and password',
+      name: 'inputLoginAndPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Language`
+  String get language {
+    return Intl.message(
+      'Language',
+      name: 'language',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message(
+      'Login',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No data`
+  String get noData {
+    return Intl.message(
+      'No data',
+      name: 'noData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Total persons: {total}`
+  String personsTotal(Object total) {
+    return Intl.message(
+      'Total persons: $total',
+      name: 'personsTotal',
+      desc: '',
+      args: [total],
+    );
+  }
+
   /// `Russian`
   String get russian {
     return Intl.message(
       'Russian',
       name: 'russian',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign in`
+  String get signIn {
+    return Intl.message(
+      'Sign in',
+      name: 'signIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Try again`
+  String get tryAgain {
+    return Intl.message(
+      'Try again',
+      name: 'tryAgain',
       desc: '',
       args: [],
     );

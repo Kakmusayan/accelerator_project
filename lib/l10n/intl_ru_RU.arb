@@ -1,18 +1,27 @@
 {
-    "counterValue": "Значение счетчика",
-    "auth": "Авторизация",
-    "inputLoginAndPassword": "Введите логин и пароль",
-    "login": "Логин",
-    "password": "Пароль",
-    "inputErrorCheckLogin": "Проверьте логин",
-    "inputErrorLoginIsShort": "Логин должен содержать не менее 3 символов",
-    "inputErrorCheckPassword": "Проверьте пароль",
-    "inputErrorPasswordIsShort": "Пароль должен содержать не менее 8 символов",
-    "tryAgian": "Попробуйте снова",
-    "close": "Закрыть",
-    "signIn": "Вход",
-    "language": "Язык",
-    "english": "Англиский",
-    "russian": "Русский"
-
+	"@personsTotal": {
+		"placeholders": {
+			"total": {}
+		}
+	},
+	"alive": "Живой",
+	"auth": "Авторизация",
+	"close": "Закрыть",
+	"counterValue": "Значение счетчика",
+	"dead": "Мертвый",
+	"english": "Английский",
+	"findPerson": "Найти персонажа",
+	"inputErrorCheckLogin": "Проверьте логин",
+	"inputErrorCheckPassword": "Проверьте пароль",
+	"inputErrorLoginIsShort": "Логин должен содержать не менее 3 символов",
+	"inputErrorPasswordIsShort": "Пароль должен содержать не менее 8 символов",
+	"inputLoginAndPassword": "Введите логин и пароль",
+	"language": "Язык",
+	"login": "Логин",
+	"noData": "Нет данных",
+	"password": "Пароль",
+	"personsTotal": "Всего персонажей: {total}",
+	"russian": "Русский",
+	"signIn": "Вход",
+	"tryAgain": "Попробуйте снова"
 }

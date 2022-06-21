@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     children: <Widget>[
                       Text(
                         S.of(context).inputLoginAndPassword,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -45,8 +45,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         maxLength: 8,
                         validator: (value) {
-                          if (value == null)
+                          if (value == null) {
                             return S.of(context).inputErrorCheckLogin;
+                          }
                           if (value.length < 3) {
                             return S.of(context).inputErrorLoginIsShort;
                           }
@@ -62,8 +63,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         maxLength: 16,
                         validator: (value) {
-                          if (value == null)
+                          if (value == null) {
                             return S.of(context).inputErrorCheckLogin;
+                          }
                           if (value.length < 8) {
                             return S.of(context).inputErrorPasswordIsShort;
                           }
@@ -88,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: ElevatedButton(
                     child: Text(S.of(context).auth),
                     onPressed: () {
-                      final isValidated = formKey.currentState?.save();
+                      formKey.currentState?.save();
                       if (login == 'qwerty' && password == '123456ab') {
                         Navigator.push(
                           context,
